@@ -117,7 +117,7 @@ async def bitcoin():
     #define url
     url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json"
     
-    #make "GET" requets
+    #make "GET" request
     response = requests.get(url)
     
     #grab data from response
@@ -126,7 +126,7 @@ async def bitcoin():
     #send data in channel
     await client.say("Current Bitcoin Price is: $" + value)
     
-#example of embed messgaes
+#example of embed messages
 
 #get info of server
 @client.command(pass_context=True)
