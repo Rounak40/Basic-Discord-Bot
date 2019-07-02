@@ -68,8 +68,8 @@ async def clear(ctx, number : int):
 async def percent(a: int, b: int):
     divide3 = (a/b)
     ans = divide3*100
-    embed = discord.Embed(title="Solved", description=ans, color=0x1500ff)
-    await client.say(ans)
+    embed = discord.Embed(title="Solved", description=str(ans), color=0x1500ff)
+    await client.say(embed=embed)
 
 @client.command()
 async def root(number):
