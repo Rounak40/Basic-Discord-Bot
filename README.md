@@ -1,5 +1,5 @@
-# Basic-Disocrd-Bot
-Its an example of basic discord bot in disocrd.py async version.
+# Basic-Discord-Bot
+Its an example of basic discord bot in discord.py async version.
 
 **Installation**
 ```
